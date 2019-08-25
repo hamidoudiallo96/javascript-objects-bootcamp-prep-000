@@ -7,9 +7,7 @@ var updatePlaylist = (obj,artistName,songTitle) =>{
 }
 
 var removeFromPlaylist = (obj, artistName) =>{
-  console.log(delete obj[artistName]);
-  console.log(obj)
+  delete obj[artistName];
   return obj
 }
 
-console.log(removeFromPlaylist(playlist,"ledZepplin"))
